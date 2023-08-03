@@ -119,10 +119,10 @@
     transform: translate(-50%, -50%);
     text-align: center;
 }
-.container:hover .image {
+.kk:hover .image {
     filter: brightness(0.3);
 }
-.container:hover .middle {
+.kk:hover .middle {
     opacity: 1;
 }
 .text {
