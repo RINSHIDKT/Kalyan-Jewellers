@@ -1,0 +1,265 @@
+             /* FIRST NAVIGATION */
+
+.firstnav{
+    font-size: 11px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.firstnav a{
+    text-decoration: none;
+    font-weight: normal;
+    color: grey;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav i{
+    padding-top: 5px;
+    color: white;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    width: 20px;
+    height: 20px;
+}
+
+            /* SECOND NAVIGATION */
+
+.secondnav img{
+     width: 30%;
+}  
+.secndnavsticky{
+    position: sticky;
+    top: 0;
+}
+.secondcontent span{
+    color: gray;
+    font-weight: bold;
+    margin: 20px;
+} 
+.secondcontent span:hover{
+    color: red;
+    padding-bottom: 10px;
+    border-bottom: 1px solid red;
+}
+
+               /* MAIN IMAGE */
+
+.mainimg img{
+    width: 100%;
+    height: 440px;
+    background-size: cover;
+    position: relative;
+}
+.content{
+    width: 50%;
+    height: 20%;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.content p{
+    letter-spacing: 3px;
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.content h1{
+    font-family: apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    letter-spacing: 4px;
+}
+.content h2{
+    border-bottom: 2px solid white;
+    width: 30%;
+    margin: auto;
+}
+
+            /* CONT SECOND */
+
+.contsecond{
+    background-color: #fdecf2;
+    width: 100%;
+    height: auto;
+}   
+.contsecond h1{
+    letter-spacing: 3px;
+    text-align: center;
+    padding-top: 50px;
+}
+.contsecond p{
+    border-bottom: 1px solid black;
+    width: 12%;
+    margin: auto;
+}
+
+
+            /* MOSTIMG */
+
+.container{
+    padding-top: 30px;
+    position: relative;
+    width: 50%;
+}
+.image {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.container:hover .image {
+    filter: brightness(0.3);
+}
+.container:hover .middle {
+    opacity: 1;
+}
+.text {
+    border: 2px solid white;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+}
+.mostcontents h1{
+    font-size: 20px;
+}
+.mostcontents h3{
+    border-bottom: 2px solid black;
+    width: 45%;
+    margin: auto;
+}
+.mostcontents h2{
+    font-size: 19px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 
+.mostimage{
+    padding-top: 40px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}  
+.imgemost1{
+    position: relative;
+}
+.imgemost1:hover img{
+    filter: brightness(0.4);
+} 
+.mostimgcont1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    width: 50%;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 38%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    opacity: 0;
+}
+.imgemost1:hover{
+    opacity: 1;
+}
+.imagemost2{
+    position: relative;
+}
+.mostimgcont2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid white;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 50%;
+    height: auto;
+    left: 50%;
+    top: 24%;
+    text-align: center;
+    transform: translate(-50%,50%);
+}
+.imagemost3{
+    position: relative;
+}
+.mostimgcont3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    width: 50%;
+    top: 37%;
+    margin-left: 48%;
+    transform: translate(-50%,-50%);
+}
+.imgborder{
+    border: 15px solid white;
+    justify-content: space-evenly;
+}
+.imgborder img{
+    width: 200px;
+}
+.mostimage img{
+    width: 90%;
+}
+.mostimage h1{
+    font-size: 20px;
+}
+.mostimage h2{
+    font-size: 19px;
+}
+.mostimage h3{
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: auto;
+} */
